@@ -19,4 +19,11 @@ public class Direccion {
     private String ciudad;
 
 
+    public Direccion(DatosDireccion direccion) {
+        this.calle = direccion.calle();
+        this.numero = direccion.distrito();
+        this.distrito = direccion.distrito();
+        this.complemento = direccion.complemento();
+        this.ciudad = direccion.ciudad();
+    }
 }

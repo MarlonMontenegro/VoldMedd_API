@@ -1,0 +1,1 @@
+ALTER TABLE pacientes add distrito varchar(100);
